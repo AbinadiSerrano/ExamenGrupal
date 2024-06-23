@@ -19,6 +19,7 @@ return new class extends Migration
             $table->integer ('sueldo');
             $table->string ('cargo',50);
             $table->integer ('carnet');
+            $table->integer ('edad');
             $table->char ('sexo');
             $table->timestamps();
         });
